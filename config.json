@@ -1,0 +1,7 @@
+{
+    "backup_path" : "/mnt/backup",
+    "photos_location" : "/home/branda/photos",
+    "keep_for" : 30,
+    "log_level" : 7,
+    "log_location" : "/home/branda/backup.log"
+}
