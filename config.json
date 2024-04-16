@@ -1,7 +1,7 @@
 {
-    "backup_path" : "/mnt/backup",
-    "photos_location" : "/home/branda/photos",
+    "backup_path" : "your/backup/path",
+    "photos_location" : "the/location/of/the/photos/you/want/to/backup",
     "keep_for" : 30,
     "log_level" : 7,
-    "log_location" : "/home/branda/backup.log"
+    "log_location" : "/etc/backup/logs.log"
 }
