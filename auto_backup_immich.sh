@@ -23,12 +23,12 @@ add_log () {
         # The log will be considered
         current_date=$(date +'%Y-%m-%d %H:%M:%S')
         case $1 in
-            1) echo "$current_date FATAL $2" >> $log_location/$log_name ;;
-            2) echo "$current_date ERROR $2" >> $log_location/$log_name ;;
-            3) echo "$current_date WARN $2" >> $log_location/$log_name ;;
-            4) echo "$current_date INFO $2" >> $log_location/$log_name ;;
-            5) echo "$current_date DEBUG $2" >> $log_location/$log_name ;;
-            6) echo "$current_date TRACE $2" >> $log_location/$log_name ;;
+            1) echo "$current_date FATAL $2" >> $log_location ;;
+            2) echo "$current_date ERROR $2" >> $log_location ;;
+            3) echo "$current_date WARN $2" >> $log_location ;;
+            4) echo "$current_date INFO $2" >> $log_location ;;
+            5) echo "$current_date DEBUG $2" >> $log_location ;;
+            6) echo "$current_date TRACE $2" >> $log_location ;;
         esac
     fi   
 }
